@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    font-size: 100%;
+
+}
+
+.widget {
+    width: 500px;
+    padding: 20px;
+}
+
+.btn {
+    font-size: 1em;
+    padding: 10px 15px;
+    border: 1px solid rgb(24, 78, 255);
+    border-radius: 5px;
+}
+
+.collapse {
+    background-color: rgb(56, 56, 165);
+    color: white;
+    transition: background-color 2s;
+
+}
+
+.collapse:hover {
+    background-color: rgb(27, 152, 255);
+}
+
+.collapse__content {
+    padding: 10px;
+    border: 1px solid rgba(78, 77, 71, 0.534);
+    border-radius: 5px;
+}
+
+.collapse__content-wrapper {
+    max-height: 0;
+    margin-top: 10px;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+.click {
+    max-height: 100vh;
+}
